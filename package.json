@@ -1,0 +1,21 @@
+{
+  "name": "belajar-npm",
+  "version": "1.0.0",
+  "description": "Belajar npm",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.mjs",
+    "dev": "ls",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muhammad Ilham",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "validator": "^13.11.0"
+  },
+  "devDependencies": {
+    "@types/validator": "^13.11.9",
+    "nodemon": "^3.0.3"
+  }
+}
